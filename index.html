@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Robert Martinez Contracting</title>
-  <meta name="description" content="Reliable contracting services. Call Robert Martinez at 512-423-7244." />
+  <meta name="description" content="Handyman work to full remodeling. Call Robert Martinez at 512-423-7244." />
   <style>
     :root {
       --bg: #0f1419;
@@ -56,7 +56,7 @@
       margin: 0 0 0.85rem; font-size: clamp(2.1rem, 5vw, 3.4rem);
       line-height: 1.08; letter-spacing: -0.03em;
     }
-    .hero-copy p { margin: 0 0 1.4rem; color: var(--muted); font-size: 1.08rem; max-width: 36rem; }
+    .hero-copy p { margin: 0 0 1.4rem; color: var(--muted); font-size: 1.08rem; max-width: 38rem; }
     .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
     .card {
       background: linear-gradient(180deg, rgba(255,255,255,0.04), transparent 40%), var(--panel);
@@ -85,6 +85,12 @@
     @media (max-width: 820px) { .services { grid-template-columns: 1fr; } }
     .service h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
     .service p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .scope {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; margin-top: 0.9rem;
+    }
+    @media (max-width: 820px) { .scope { grid-template-columns: 1fr; } }
+    .scope ul { margin: 0.5rem 0 0; padding-left: 1.1rem; color: var(--muted); }
+    .scope li { margin: 0.25rem 0; }
     .about p { color: var(--muted); max-width: 46rem; margin: 0; }
     footer {
       border-top: 1px solid var(--line); color: var(--muted);
@@ -107,15 +113,16 @@
 
     <section class="hero" id="contact">
       <div class="hero-copy">
-        <div class="chip">Available for new projects</div>
-        <h1>Solid work. Clear communication. Done right.</h1>
+        <div class="chip">Handyman work to full remodeling</div>
+        <h1>From small fixes to full remodels.</h1>
         <p>
-          Local contracting you can count on — from planning through finish.
-          Tell me what you need and I’ll get you a straight answer fast.
+          One call for the whole range — quick handyman jobs, repairs and upgrades,
+          or complete remodeling projects. Clear communication, solid workmanship,
+          and a straight answer on what it’ll take.
         </p>
         <div class="actions">
           <a class="btn btn-primary" href="tel:+15124237244">Call Robert now</a>
-          <a class="btn btn-ghost" href="#services">See services</a>
+          <a class="btn btn-ghost" href="#services">See scope of work</a>
         </div>
       </div>
       <aside class="card contact-card">
@@ -124,27 +131,49 @@
         <a class="phone" href="tel:+15124237244">512-423-7244</a>
         <div class="facts">
           <div><span>Name</span><strong>Robert Martinez</strong></div>
-          <div><span>Role</span><strong>Contractor</strong></div>
+          <div><span>Scope</span><strong>Handyman → Remodel</strong></div>
           <div><span>Response</span><strong>Same-day when possible</strong></div>
         </div>
       </aside>
     </section>
 
     <section id="services">
-      <h2>Services</h2>
+      <h2>Scope of work</h2>
       <div class="services">
         <article class="card service">
-          <h3>General contracting</h3>
-          <p>Coordinate the job end to end so work stays on track and on quality.</p>
+          <h3>Handyman &amp; repairs</h3>
+          <p>Small jobs done right — mounts, fixes, punch lists, and everyday repairs around the home.</p>
         </article>
         <article class="card service">
-          <h3>Repairs &amp; upgrades</h3>
-          <p>Fix what’s broken and improve what you use every day — clean, practical results.</p>
+          <h3>Upgrades &amp; renovations</h3>
+          <p>Room refreshes, finish work, and targeted upgrades that improve how the space looks and works.</p>
         </article>
         <article class="card service">
-          <h3>Project consults</h3>
-          <p>Walkthroughs, scope help, and realistic next steps before you spend money.</p>
+          <h3>Full remodeling</h3>
+          <p>Larger projects from plan through finish — kitchens, baths, interiors, and whole-home remodel work.</p>
         </article>
+      </div>
+      <div class="scope">
+        <div class="card">
+          <h3 style="margin:0">Examples of smaller jobs</h3>
+          <ul>
+            <li>Drywall patches &amp; paint touch-ups</li>
+            <li>Door, trim, and hardware fixes</li>
+            <li>TV / shelf mounting</li>
+            <li>Caulk, weatherstrip, minor plumbing/fixture help</li>
+            <li>General punch-list and “honey-do” work</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin:0">Examples of larger projects</h3>
+          <ul>
+            <li>Kitchen &amp; bath remodels</li>
+            <li>Flooring, tile, and finish upgrades</li>
+            <li>Interior renovations &amp; layout updates</li>
+            <li>Multi-trade coordination on bigger jobs</li>
+            <li>Full-home remodeling support</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -152,10 +181,11 @@
       <h2>About</h2>
       <div class="card">
         <p>
-          I’m Robert Martinez. I keep projects simple: understand the goal, do careful work,
-          and keep you updated. If you need contracting help, call
+          I’m Robert Martinez. Whether you need a handyman for a Saturday list or a contractor
+          for a full remodel, I keep it simple: understand the goal, do careful work, and keep
+          you updated. Call
           <a href="tel:+15124237244"><strong>512-423-7244</strong></a>
-          and let’s talk through it.
+          and let’s talk through the job.
         </p>
       </div>
     </section>
