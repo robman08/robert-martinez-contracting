@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Robert Martinez Contracting Services — Flyer</title>
+  <style>
+    @page { size: letter; margin: 0.45in; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+      color: #12202b;
+      background: #fff;
+      width: 8.5in;
+      min-height: 11in;
+    }
+    .page {
+      border: 3px solid #e8a317;
+      min-height: 10.1in;
+      padding: 0.35in 0.4in 0.3in;
+      display: flex;
+      flex-direction: column;
+      gap: 0.22in;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.3in;
+      border-bottom: 2px solid #182029;
+      padding-bottom: 0.18in;
+    }
+    .brand { font-size: 28px; font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
+    .brand span { color: #c4840c; display: block; font-size: 22px; }
+    .badge {
+      background: #182029; color: #fff; font-size: 12px; font-weight: 700;
+      padding: 8px 12px; border-radius: 999px; white-space: nowrap;
+    }
+    h1 {
+      margin: 0; font-size: 34px; line-height: 1.1; letter-spacing: -0.03em;
+    }
+    .lead { margin: 0; font-size: 15px; color: #445566; max-width: 6.8in; }
+    .contact {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 0.2in;
+      background: #182029;
+      color: #fff;
+      border-radius: 14px;
+      padding: 0.22in 0.28in;
+    }
+    .contact .label { font-size: 11px; color: #9aabba; text-transform: uppercase; letter-spacing: 0.04em; }
+    .contact .phone { font-size: 28px; font-weight: 800; color: #e8a317; margin: 2px 0 6px; }
+    .contact .email { font-size: 15px; font-weight: 600; }
+    .contact .right { text-align: right; }
+    .contact .name { font-size: 18px; font-weight: 800; margin-top: 4px; }
+    .grid3 {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.16in;
+    }
+    .card {
+      border: 1px solid #d7dee5; border-radius: 12px; padding: 0.16in;
+      background: #f7f9fb;
+    }
+    .card h3 { margin: 0 0 6px; font-size: 14px; }
+    .card p { margin: 0; font-size: 12px; color: #445566; line-height: 1.35; }
+    .photos {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.14in;
+    }
+    .photos figure { margin: 0; }
+    .photos img {
+      width: 100%; height: 1.55in; object-fit: cover; border-radius: 10px;
+      border: 1px solid #d7dee5; display: block;
+    }
+    .photos figcaption { font-size: 11px; color: #445566; margin-top: 4px; font-weight: 600; }
+    .lists {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0.16in;
+    }
+    .lists h3 { margin: 0 0 6px; font-size: 14px; }
+    .lists ul { margin: 0; padding-left: 1.1em; color: #445566; font-size: 12px; }
+    .lists li { margin: 3px 0; }
+    .footer {
+      margin-top: auto;
+      display: flex; justify-content: space-between; align-items: center;
+      border-top: 1px solid #d7dee5; padding-top: 0.14in;
+      font-size: 12px; color: #445566;
+    }
+    .footer strong { color: #12202b; }
+    .cta {
+      background: #e8a317; color: #1a1200; font-weight: 800;
+      padding: 10px 14px; border-radius: 999px; font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top">
+      <div class="brand">Robert Martinez<span>Contracting Services</span></div>
+      <div class="badge">Handyman → Full Remodeling</div>
+    </div>
+
+    <h1>From small fixes to full remodels.</h1>
+    <p class="lead">One call for the whole range — handyman jobs, repairs and upgrades, or complete remodeling. Clear communication and solid workmanship.</p>
+
+    <div class="contact">
+      <div>
+        <div class="label">Call</div>
+        <div class="phone">512-423-7244</div>
+        <div class="label">Email</div>
+        <div class="email">eastsidecasa101@gmail.com</div>
+      </div>
+      <div class="right">
+        <div class="label">Point of contact</div>
+        <div class="name">Robert Martinez</div>
+        <div style="margin-top:10px;font-size:12px;color:#9aabba;">Same-day response when possible</div>
+      </div>
+    </div>
+
+    <div class="grid3">
+      <div class="card"><h3>Handyman &amp; repairs</h3><p>Mounts, fixes, punch lists, and everyday repairs around the home.</p></div>
+      <div class="card"><h3>Upgrades &amp; renovations</h3><p>Room refreshes, finish work, and targeted upgrades that improve the space.</p></div>
+      <div class="card"><h3>Full remodeling</h3><p>Kitchens, baths, interiors, and whole-home remodel work from plan to finish.</p></div>
+    </div>
+
+    <div class="photos">
+      <figure>
+        <img src="photos/kitchen.jpg" alt="Kitchen remodel" />
+        <figcaption>Kitchen remodel</figcaption>
+      </figure>
+      <figure>
+        <img src="photos/bathroom.jpg" alt="Bathroom update" />
+        <figcaption>Bathroom update</figcaption>
+      </figure>
+      <figure>
+        <img src="photos/flooring.jpg" alt="Flooring and paint" />
+        <figcaption>Flooring &amp; paint</figcaption>
+      </figure>
+    </div>
+
+    <div class="lists">
+      <div class="card">
+        <h3>Smaller jobs</h3>
+        <ul>
+          <li>Drywall patches &amp; paint touch-ups</li>
+          <li>Door, trim, and hardware fixes</li>
+          <li>TV / shelf mounting</li>
+          <li>Punch-list / honey-do work</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Larger projects</h3>
+        <ul>
+          <li>Kitchen &amp; bath remodels</li>
+          <li>Flooring, tile, finish upgrades</li>
+          <li>Interior renovations</li>
+          <li>Full-home remodeling support</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div><strong>Free estimate by phone or email</strong><br>robman08.github.io/robert-martinez-contracting</div>
+      <div class="cta">Call 512-423-7244</div>
+    </div>
+  </div>
+</body>
+</html>
